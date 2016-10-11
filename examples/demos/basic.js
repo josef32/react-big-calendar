@@ -9,6 +9,7 @@ let Basic = React.createClass({
         {...this.props}
         events={events}
         defaultDate={new Date(2015, 3, 1)}
+        hideAllDay={true}
       />
     )
   }
